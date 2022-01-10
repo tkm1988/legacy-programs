@@ -1,0 +1,35 @@
+MODULE main
+VAR
+  timer_switch1 : 1..5;
+  timer_switch2 : 1..4;
+  timer_switch3 : 1..6;
+  timer_switch4 : 1..3;
+  light : { on, off};
+ASSIGN
+  init(timer_switch1) := 2;
+  next(timer_switch1) := case
+			   timer_switch1 = 5 : 1;
+			   timer_switch1 < 5 : timer_switch1 + 1; 
+			 esac;
+  init(timer_switch2) := 3;
+  next(timer_switch2) := case
+ 			   timer_switch2 = 4 : 1;
+			   timer_switch2 < 4 : timer_switch2 + 1; 
+			 esac;
+  init(timer_switch3) := 1;
+  next(timer_switch3) := case
+			   timer_switch3 = 6 : 1;
+			   timer_switch3 < 6 : timer_switch3 + 1; 
+			 esac;
+  init(timer_switch4) := 2;
+  next(timer_switch4) := case
+			   timer_switch4 = 3 : 1;
+			   timer_switch4 < 3 : timer_switch4 + 1; 
+			 esac;
+  init(light) := off;
+  next(light) := case
+		   timer_switch1 = 5 & timer_switch2 = 4 & (timer_switch3 = 6 | timer_switch4 = 3) : on;
+		   !(timer_switch1 = 5 & timer_switch2 = 4 & (timer_switch3 = 6 | timer_switch4 = 3)) : off; 
+		 esac;
+LTLSPEC
+  G(light = off -> F(light = on))

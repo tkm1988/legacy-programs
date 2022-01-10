@@ -1,0 +1,15 @@
+[global]
+email:your_mixi_mail_address
+passwd:your_mixi_password
+
+[login-test]
+# your email address is good for email and set dummy password
+email:test_mixi_id
+passwd:dummy
+
+[show-log-test]
+max_log_count:60
+
+
+[image-test]
+target_user:1
