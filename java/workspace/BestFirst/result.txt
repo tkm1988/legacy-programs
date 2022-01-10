@@ -1,0 +1,43 @@
+STEP:1
+OPEN:[Hakodate(h:10761)(g:0)]
+CLOSED:[]
+
+STEP:2
+OPEN:[Sapporo(h:10669)(g:250), Tokyo(h:10901)(g:1200), Seoul(h:12206)(g:2350)]CLOSED:[Hakodate(h:10761)(g:0)]
+
+STEP:3
+OPEN:[Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200), Nagoya(h:11153)(g:1750), Seoul(h:12206)(g:2350)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250)]
+
+STEP:4
+OPEN:[Tokyo(h:10901)(g:1200), Nagoya(h:11153)(g:1750), Seoul(h:12206)(g:2350)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050)]
+
+STEP:5
+OPEN:[Kanazawa(h:11150)(g:1650), Nagoya(h:11153)(g:1750), Osaka(h:11283)(g:1800), Seoul(h:12206)(g:2350), Fukuoka(h:11706)(g:2400), SanFrancisco(h:0)(g:14200)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200)]
+
+STEP:6
+OPEN:[Nagoya(h:11153)(g:1750), Osaka(h:11283)(g:1800), Seoul(h:12206)(g:2350), Fukuoka(h:11706)(g:2400), SanFrancisco(h:0)(g:14200)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200), Kanazawa(h:11150)(g:1650)]
+
+STEP:7
+OPEN:[Osaka(h:11283)(g:1800), Seoul(h:12206)(g:2350), Fukuoka(h:11706)(g:2400), SanFrancisco(h:0)(g:14200)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200), Kanazawa(h:11150)(g:1650), Nagoya(h:11153)(g:1750)]
+
+STEP:8
+OPEN:[Seoul(h:12206)(g:2350), Fukuoka(h:11706)(g:2400), SanFrancisco(h:0)(g:14200)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200), Kanazawa(h:11150)(g:1650), Nagoya(h:11153)(g:1750), Osaka(h:11283)(g:1800)]
+
+STEP:9
+OPEN:[Fukuoka(h:11706)(g:2400), SanFrancisco(h:0)(g:14200)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200), Kanazawa(h:11150)(g:1650), Nagoya(h:11153)(g:1750), Osaka(h:11283)(g:1800), Seoul(h:12206)(g:2350)]
+
+STEP:10
+OPEN:[SanFrancisco(h:0)(g:14200)]
+CLOSED:[Hakodate(h:10761)(g:0), Sapporo(h:10669)(g:250), Sendai(h:10750)(g:1050), Tokyo(h:10901)(g:1200), Kanazawa(h:11150)(g:1650), Nagoya(h:11153)(g:1750), Osaka(h:11283)(g:1800), Seoul(h:12206)(g:2350), Fukuoka(h:11706)(g:2400)]
+
+*** Solution: Total Cost = 14200
+SanFrancisco(h:0)(g:14200) <- 
+Tokyo(h:10901)(g:1200) <- 
+Hakodate(h:10761)(g:0)
