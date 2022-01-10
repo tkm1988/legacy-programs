@@ -1,0 +1,8 @@
+p[0:10][0:10] "fmap_class=1(lt=0,LOGGING)seg.dat" t"class 1" w p ps 4,\
+"fmap_class=2(lt=0,LOGGING)seg.dat" t"class 2" w p ps 4,\
+"fmap_class=3(lt=0,LOGGING)seg.dat" t"class 3" w p ps 4,\
+"fmap_class=4(lt=0,LOGGING)seg.dat" t"class 4" w p ps 4,\
+"fmap_class=5(lt=0,LOGGING)seg.dat" t"class 5" w p ps 4,\
+"fmap_class=6(lt=0,LOGGING)seg.dat" t"class 6" w p ps 4,\
+"fmap_class=7(lt=0,LOGGING)seg.dat" t"class 7" w p ps 4,\
+"fmap_class=-1(lt=0,LOGGING)seg.dat" t"class -1" w p ps 4

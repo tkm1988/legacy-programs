@@ -1,0 +1,3 @@
+p[0:500][0:0.25] "(mip somlt=1, max_sample=100) segmentation.dat" t"Error Curve (lt = 1)" w l lw 4,\
+"(mip somlt=5, max_sample=100) segmentation.dat" t"Error Curve (lt = 5)" w l lw 4,\
+"(mip somlt=10, max_sample=100) segmentation.dat" t"Error Curve (lt = 10)" w l lw 4

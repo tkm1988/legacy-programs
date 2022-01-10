@@ -1,0 +1,40 @@
+p[0:18][0:18] "map(neuron_num=324,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=324,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=324,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "map(neuron_num=324,lt=50,class=5).dat" w p t"class 4" ps 3,\
+ "map(neuron_num=324,lt=50,class=6).dat" w p t"class 5" ps 3,\
+ "map(neuron_num=324,lt=50,class=7).dat" w p t"class 6" ps 3,\
+ "map(neuron_num=324,lt=50,class=8).dat" w p t"class 7" ps 3,\
+ "map(neuron_num=324,lt=50,class=9).dat" w p t"class 8" ps 3,\
+ "map(neuron_num=324,lt=50,class=1).dat" w p t"Gap" ps 3
+ 
+ p[0:18][0:18] "map(neuron_num=324,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=324,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=324,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "map(neuron_num=324,lt=50,class=5).dat" w p t"class 4" ps 3,\
+ "map(neuron_num=324,lt=50,class=6).dat" w p t"class 5" ps 3,\
+ "map(neuron_num=324,lt=50,class=7).dat" w p t"class 6" ps 3,\
+ "map(neuron_num=324,lt=50,class=8).dat" w p t"class 7" ps 3,\
+ "map(neuron_num=324,lt=50,class=9).dat" w p t"class 8" ps 3,\
+ "bncoord(mv, br10).dat" w p t"BROKEN" ps 3
+ 
+ p[0:18][0:18] "map(neuron_num=324,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=324,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=324,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "map(neuron_num=324,lt=50,class=5).dat" w p t"class 4" ps 3,\
+ "map(neuron_num=324,lt=50,class=6).dat" w p t"class 5" ps 3,\
+ "map(neuron_num=324,lt=50,class=7).dat" w p t"class 6" ps 3,\
+ "map(neuron_num=324,lt=50,class=8).dat" w p t"class 7" ps 3,\
+ "map(neuron_num=324,lt=50,class=9).dat" w p t"class 8" ps 3,\
+ "bncoord(mv, br50).dat" w p t"BROKEN" ps 3
+ 
+ p[0:18][0:18] "map(neuron_num=324,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=324,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=324,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "map(neuron_num=324,lt=50,class=5).dat" w p t"class 4" ps 3,\
+ "map(neuron_num=324,lt=50,class=6).dat" w p t"class 5" ps 3,\
+ "map(neuron_num=324,lt=50,class=7).dat" w p t"class 6" ps 3,\
+ "map(neuron_num=324,lt=50,class=8).dat" w p t"class 7" ps 3,\
+ "map(neuron_num=324,lt=50,class=9).dat" w p t"class 8" ps 3,\
+ "bncoord(mv, br90).dat" w p t"BROKEN" ps 3
+ 

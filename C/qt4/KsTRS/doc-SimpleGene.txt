@@ -1,0 +1,53 @@
+コンストラクタ
+	simplegene(void)
+	simplegene(std::list<unsigned long> *, std::list<size_t> *)
+	simplegene(std::list<std::string> *)
+デストラクタ
+	~simplegene()
+メンバ関数
+	std::list<std::string>	getData(void);
+	void 			setData(std::list<unsignd long> *, std::list<size_t> *);
+	void 			setData(std::list<std::string> *);
+	std::list<samplegene>	OnePointCrossover(simplegene *);
+	std::list<samplegene>	TwoPointCrossover(simplegene *);
+	void			Mutation(void);
+メンバ変数
+	std::list<std::string>	genedata
+概要
+	単純GA（Simple GA）で用いる遺伝子型を表すクラス．
+	ビット列をstd::stringを要素としたstd::listで保持する．
+説明
+	simplegene(void)
+		メンバ変数genedataをクリアする．
+
+	simplegene(std::list<unsigned long> *, std::list<size_t> *)
+		与えられた符号なしunsigned long int型のリストと，
+		変換後のビット列の長さを定義したsize_t（unsigned long int）
+		型のリストを用いてgenedataを作る．
+
+	simplegene(std::list<std::string> *)
+		std::string型のリストのアドレスとgenedataのアドレスを
+		スワップする．ただし"0"と"1"のみで構成された文字列のみ
+		で作られていた場合のみで，それ以外ではgenedataをクリアする．
+
+	std::list<std::string>	getData(void)
+
+	void 			setData(std::list<unsignd long> *, std::list<size_t> *)
+
+	void 			setData(std::list<std::string> *)
+
+	std::list<samplegene>	OnePointCrossover(simplegene *)
+		自身と与えられた個体を親として一点交叉を行う．
+		ランダムに選ばれた一点を交叉のポイントとする．
+		子個体は二つできるので，それを要素としたリストを返す．
+
+	std::list<samplegene>	TwoPointCrossover(simplegene *)
+		自身と与えられた個体を親として二点交叉を行う．
+		ランダムに選ばれた二点を交叉のポイントとする．
+		子個体は二つできるので，それを要素としたリストを返す．
+
+	void			Mutation(void)
+		自身を突然変異させる．
+		自身の一部の遺伝子をビット反転させる．
+		複数の遺伝子型を持っている場合，ランダムに選ばれたの要素の
+		ランダムに選ばれた一カ所のビットを反転させる．

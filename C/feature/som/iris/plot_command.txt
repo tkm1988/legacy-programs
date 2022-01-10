@@ -1,0 +1,20 @@
+p[0:10][0:10] "map(neuron_num=121,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=121,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=121,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "map(neuron_num=121,lt=50,class=1).dat" w p t"Gap" ps 2
+ 
+ p[0:10][0:10] "map(neuron_num=121,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=121,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=121,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "bncoord(iris, br10).dat"w p t"BROKEN" ps 3
+ 
+ p[0:10][0:10] "map(neuron_num=121,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=121,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=121,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "bncoord(iris, br50).dat"w p t"BROKEN" ps 3
+ 
+ p[0:10][0:10] "map(neuron_num=121,lt=50,class=2).dat" w p t"class 1" ps 3,\
+ "map(neuron_num=121,lt=50,class=3).dat" w p t"class 2" ps 3,\
+ "map(neuron_num=121,lt=50,class=4).dat" w p t"class 3" ps 3,\
+ "bncoord(iris, br90).dat"w p t"BROKEN" ps 3
+ 
