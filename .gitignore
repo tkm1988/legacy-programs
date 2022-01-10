@@ -1,3 +1,6 @@
+*
+!*/
+!*.*
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,c,c++,python,objective-c,eclipse,java,ruby,scala,clojure
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,c,c++,python,objective-c,eclipse,java,ruby,scala,clojure
@@ -528,3 +531,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux,c,c++,python,objective-c,eclipse,java,ruby,scala,clojure
+
+*.dat
